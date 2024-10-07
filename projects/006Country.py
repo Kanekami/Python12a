@@ -1,6 +1,6 @@
 print("Qual e o teu nome?")
 name = input()
-print("Qual 'e a tua nacionalidade? (Espanha, Alemanha, França)")
+print("Qual 'e a tua nacionalidade? (Espanha, Alemanha, França...)")
 country = input()
 if country.lower()== "espanha":
     print(f"Hola, {name}!")

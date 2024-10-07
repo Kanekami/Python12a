@@ -1,6 +1,6 @@
 print("Bom dia, qual é o teu nome?")
 nome = input()
-print("Olá " + nome + "!")
+print(f"Olá {nome}!")
 print("Quantos anos tens?")
 idade = input()
 if idade.isnumeric():

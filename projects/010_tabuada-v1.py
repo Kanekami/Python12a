@@ -4,6 +4,7 @@ import os
 print("Tabuada")
 print("Escolha um numero inteiro")
 number=int(input())
+
 print(f"{number}x1=", number*1)
 print(f"{number}x2=", number*2)
 print(f"{number}x3=", number*3)

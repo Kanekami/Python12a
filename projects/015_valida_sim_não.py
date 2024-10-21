@@ -1,12 +1,12 @@
-import unicodedata
 print("Sim ou Não?")
 
-options=("sim", "nao", "nim")
+options=("sim", "não", "nim")
 k=input().lower()
 
 while k not in options: #k!=1 or k!=2 or k!=3
-    k= (input("n.º invalido um nº de 1 a 3: ")).lower()
+    k= (input("Resposta invalido, sim ou não?")).lower()
 
-print("numero inserido com sucesso")
-print(k)
-
+if k=="sim" or k=="não":
+    print(f"Claramente {k}")
+elif k=="nim":
+    print("Engraçadinho.")

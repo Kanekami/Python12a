@@ -1,7 +1,6 @@
 import os
 import time
 
-
 def clean():
     os.system("cls")
 
@@ -39,7 +38,7 @@ def end():
     time.sleep(0.1)
     print("!\n")
 
-points= 0
+points = 0
 
 print("Para cada pergunta, determine o valor de x.")
 

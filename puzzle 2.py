@@ -1,4 +1,5 @@
-from bdb import Breakpoint
+import string
+from _ast import List
 
 
 def replace_letter(letter_to_replace, letter_to_replace_with):
@@ -18,13 +19,21 @@ a= ["There acdgiER HERE\n" "lEEdfEmEnTH THE\n"
     "nREjoapztgqEnR\n"
     "iEmEEllgofuE THE\n"
     "REcEnRpH"]
+abc=List(string.ascii_lowercase)
+print(abc)
 i=0
-indice= []
+indices_a= []
+indices_b=[]
+for r in range(len(abc)):
+    a.count(a[r])== abc[r]
+    print(abc[r])
 while i <= 1:
-    b=  input("letter_to_replace: ")
-    c=  input("letter_to_replace_with: ")
-    if b=="end":
+    a_input=  input("letter_to_replace: ")
+    b_input=  input("letter_to_replace_with: ")
+    if a_input=="end":
         break
-    replace_letter(b,c)
+    replace_letter(a_input,b_input)
+    indices_a.append(a_input)
+    indices_b.append(b_input)
     print(a)
 
